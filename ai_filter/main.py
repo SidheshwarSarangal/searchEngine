@@ -12,8 +12,7 @@ with open(config["input_path"], "r", encoding="utf-8") as f:
 processed = []
 for entry in data:
     result = classify_blog_entry(entry, model=config["model"])
-    entry["classification"] = result
-    processed.append(entry)
+    processed.append(result)  # ✅ Use only cleaned data
 
 # Save results
 with open(config["output_path"], "w", encoding="utf-8") as f:
