@@ -1,11 +1,11 @@
 [
   {
-    "title": "Company News",
+    "title": "How I became a Product Manager",
     "author": "",
-    "date": "",
-    "url": "https://www.atlassian.com/blog/announcements",
+    "date": "2018-03-30T00:00:00+00:00",
+    "url": "https://manassaloi.com/2018/03/30/how-i-became-pm.html",
     "relevant": true,
-    "reason": "The content is a news article about company news, which is a typical form of content. It presents recent updates and announcements, aligning with the definition of 'news/media/corporate site'.",
-    "summary": "Atlassian has released several company news updates, including announcements about new features and updates to the blog platform."
+    "reason": "The content is a personal blog post detailing a career retrospective, which aligns with the definition of a personal blog.",
+    "summary": "Manas J. Saloi shares his journey to becoming a Product Manager, offering insights into his experience, challenges, and lessons learned."
   }
 ]
