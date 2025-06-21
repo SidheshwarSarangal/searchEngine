@@ -9,7 +9,8 @@ def classify_blog_entry(entry, model="gemma3:1b"):
     url = entry.get("url", "").strip()
     domain = urlparse(url).netloc
 
-    trimmed_content = full_content[:1500] + "\n...\n" + full_content[-1500:]
+    trimmed_content = full_content[:1500] 
+    #+ "\n...\n" + full_content[-1500:]
 
     # Quick heuristic blocklist — extend this as needed
     known_irrelevant_domains = [
