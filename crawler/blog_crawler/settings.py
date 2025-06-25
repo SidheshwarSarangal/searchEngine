@@ -21,3 +21,4 @@ FEEDS = {
     }
 }
 
+ROBOTSTXT_OBEY = False

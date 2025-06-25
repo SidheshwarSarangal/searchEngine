@@ -1,12 +1,18 @@
-// src/pages/Home.jsx
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import SearchBar from "../components/searchBar";
 
-const Home = ({ onSearch }) => {
+const Home = () => {
+  const navigate = useNavigate();
+
+  const handleSearch = (query) => {
+    navigate(`/search?q=${encodeURIComponent(query)}&page=1`);
+  };
+
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-gray-100 px-4">
-      <h1 className="text-6xl font-bold text-blue-700 mb-8">Perdo</h1>
-      <SearchBar onSearch={onSearch} />
+    <div className="min-h-screen flex flex-col justify-center -mt-16 items-center px-4">
+      <h1 className="text-7xl md:text-9xl font-bold text-blue-700 mb-8">Perdo</h1>
+      <SearchBar onSearch={handleSearch} />
     </div>
   );
 };
