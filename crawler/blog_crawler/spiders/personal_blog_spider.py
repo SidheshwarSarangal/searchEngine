@@ -6,7 +6,7 @@ import re
 class PersonalBlogSpider(scrapy.Spider):
     name = 'personal_blog'
     start_urls = [
-        "https://www.productplan.com/learn/product-manager-career-path/"
+        "https://www.covertnarcissism.com/blog"
     ]
 
     def parse(self, response):
