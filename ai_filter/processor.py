@@ -1,9 +1,9 @@
 import json
 import re
-import ollama
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+import ollama
 
 def clean_html_content(raw_html):
     soup = BeautifulSoup(raw_html, "html.parser")
@@ -25,29 +25,32 @@ def fetch_url_content(url):
 def classify_blog_url(url, model="gemma3:1b"):
     domain = urlparse(url).netloc.lower()
 
-    # Personal blog whitelist
     blog_whitelist = [
-    "firstround.com", "waitbutwhy.com", "manassaloi.com", "paulgraham.com",
-    "nav.al", "highexistence.com", "lesswrong.com", "markmanson.net",
-    "reactionwheel.net", "search.cpan.org"
+        "firstround.com", "waitbutwhy.com", "manassaloi.com", "paulgraham.com",
+        "nav.al", "highexistence.com", "lesswrong.com", "markmanson.net",
+        "reactionwheel.net", "search.cpan.org", "linkedin.com", "x.com",
+        "twitter.com", "mobile.twitter.com"
     ]
 
+    known_irrelevant_domains = [
+        "cnn.com", "bbc.com", "nytimes.com", "reuters.com", "hbr.org",
+        "indiatoday.in", "forbes.com", "businessinsider.com", "elle.com",
+        "vogue.in", "youtube.com", "www.youtube.com", "youtu.be"
+    ]
 
-    # Block non-HTML or structured file types
-    non_html_ext = [".zip", ".pdf", ".text", ".txt", ".pptx", ".docx", ".tar.gz", ".7z"]
+    non_html_ext = [
+        ".zip", ".pdf", ".text", ".txt", ".pptx", ".docx", ".tar.gz", ".7z",
+        ".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".mp4", ".mp3", ".xml", ".json", ".csv", "webp"
+    ]
+
     if any(url.lower().endswith(ext) for ext in non_html_ext):
         return {
             "title": "Untitled", "author": "", "date": "", "url": url,
             "relevant": False,
-            "reason": "Non-HTML or downloadable file.",
+            "reason": "Non-HTML or media/download file.",
             "summary": ""
         }
 
-    # Known irrelevant domains
-    known_irrelevant_domains = [
-        "cnn.com", "bbc.com", "nytimes.com", "reuters.com", "hbr.org",
-        "indiatoday.in", "forbes.com", "businessinsider.com", "elle.com", "vogue.in"
-    ]
     if domain in known_irrelevant_domains:
         return {
             "title": "Untitled", "author": "", "date": "", "url": url,
@@ -69,7 +72,6 @@ def classify_blog_url(url, model="gemma3:1b"):
     soup = BeautifulSoup(html, "html.parser")
     page_title = soup.title.string.strip() if soup.title and soup.title.string else "Untitled"
 
-    # Reject too short or weird content
     if not cleaned or len(cleaned.split()) < 50:
         return {
             "title": page_title, "author": "", "date": "", "url": url,
@@ -88,28 +90,29 @@ def classify_blog_url(url, model="gemma3:1b"):
 
     trimmed = cleaned[:1200]
 
-    # Soft keyword filters
     if domain not in blog_whitelist:
-        promo_keywords = ["enroll", "bootcamp", "coaching", "certification", "sign up", "free trial"]
-        landing_keywords = ["request demo", "platform features", "contact sales", "enterprise solution"]
-        media_keywords = ["editorial team", "subscribe newsletter", "celebrity", "gossip", "trending now"]
-
         lower = cleaned.lower()
-        if any(kw in lower for kw in promo_keywords):
+        promo = ["enroll", "bootcamp", "coaching", "certification", "sign up", "free trial"]
+        company = ["request demo", "platform features", "contact sales", "enterprise solution"]
+        media = ["editorial team", "subscribe newsletter", "celebrity", "gossip", "trending now"]
+
+        if any(kw in lower for kw in promo):
             return {
                 "title": page_title, "author": "", "date": "", "url": url,
                 "relevant": False,
                 "reason": "Appears to promote a course or product.",
                 "summary": ""
             }
-        if any(kw in lower for kw in landing_keywords):
+
+        if any(kw in lower for kw in company):
             return {
                 "title": page_title, "author": "", "date": "", "url": url,
                 "relevant": False,
                 "reason": "Looks like a company landing page.",
                 "summary": ""
             }
-        if any(kw in lower for kw in media_keywords):
+
+        if any(kw in lower for kw in media):
             return {
                 "title": page_title, "author": "", "date": "", "url": url,
                 "relevant": False,
@@ -117,7 +120,6 @@ def classify_blog_url(url, model="gemma3:1b"):
                 "summary": ""
             }
 
-    # Final AI classification prompt
     prompt = f"""You're a blog classifier.
 
 Given a web page's title and first 1200 characters of cleaned content, determine whether it's a **personal blog post** — not marketing, not company, not media.
@@ -149,8 +151,8 @@ Content:
         if raw.startswith("```json"): raw = raw[7:]
         elif raw.startswith("```"): raw = raw[3:]
         if raw.endswith("```"): raw = raw[:-3]
-        raw = re.sub(r'[\x00-\x1F]+', ' ', raw)
 
+        raw = re.sub(r'[\x00-\x1F]+', ' ', raw)
         parsed = json.loads(raw)
 
         return {
