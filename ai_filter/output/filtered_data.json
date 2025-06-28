@@ -1663,5 +1663,41 @@
     "relevant": true,
     "reason": "The text explicitly advocates for saying 'no' to commitments and opportunities, suggesting a focus on personal passions and experiences, aligning with the definition of a personal blog post.",
     "summary": "The author emphasizes the importance of focusing on rare, impactful experiences and passionately expressing 'Hell Yeah!' when faced with opportunities or commitments."
+  },
+  {
+    "title": "Markdown-Discuss Info Page",
+    "author": "",
+    "date": "",
+    "url": "http://six.pairlist.net/mailman/listinfo/markdown-discuss",
+    "relevant": true,
+    "reason": "The content discusses a discussion forum about Markdown-Discuss, indicating a personal blog post focused on community and sharing knowledge.",
+    "summary": "This page details the Markdown-Discuss forum, including discussion, archives, and subscription procedures."
+  },
+  {
+    "title": "Watch a demo | Slack",
+    "author": "",
+    "date": "",
+    "url": "http://slack.com/demo",
+    "relevant": true,
+    "reason": "The content directly relates to Slack's features and purpose, making it a personal blog post focused on a specific platform and its capabilities. It’s not promoting a company or offering a commercial service.",
+    "summary": "This text discusses the features and uses of Slack, specifically targeting enterprise users and highlighting its capabilities for collaboration, project management, and communication."
+  },
+  {
+    "title": "StackShare - Tech Stack Intelligence",
+    "author": "",
+    "date": "",
+    "url": "http://stackshare.io/",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "GitHub for Startups: Build your startup on GitHub · GitHub",
+    "author": "",
+    "date": "",
+    "url": "http://startups.github.com/",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
   }
 ]
