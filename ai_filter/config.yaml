@@ -1,3 +1,6 @@
 model:  gemma3:1b
 input_path: ../crawler/blog_crawler/output/blog_data.json
 output_path: output/filtered_data.json
+
+
+input_path: input_links.json
