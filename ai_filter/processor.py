@@ -23,77 +23,118 @@ def fetch_url_content(url):
     return ""
 
 def classify_blog_url(url, model="gemma3:1b"):
-    domain = urlparse(url).netloc
+    domain = urlparse(url).netloc.lower()
 
-    # Step 1: Domain blacklist
-    known_irrelevant_domains = [
-        "www.supermarketnews.com", "www.nytimes.com", "www.cnn.com",
-        "www.forbes.com", "www.businessinsider.com", "www.reuters.com",
-        "www.bbc.com", "hbr.org"
+    # Personal blog whitelist
+    blog_whitelist = [
+    "firstround.com", "waitbutwhy.com", "manassaloi.com", "paulgraham.com",
+    "nav.al", "highexistence.com", "lesswrong.com", "markmanson.net",
+    "reactionwheel.net", "search.cpan.org"
     ]
-    if domain in known_irrelevant_domains:
+
+
+    # Block non-HTML or structured file types
+    non_html_ext = [".zip", ".pdf", ".text", ".txt", ".pptx", ".docx", ".tar.gz", ".7z"]
+    if any(url.lower().endswith(ext) for ext in non_html_ext):
         return {
-            "title": "Untitled",
-            "author": "",
-            "date": "",
-            "url": url,
+            "title": "Untitled", "author": "", "date": "", "url": url,
             "relevant": False,
-            "reason": f"Domain '{domain}' is a known news/corporate site.",
+            "reason": "Non-HTML or downloadable file.",
             "summary": ""
         }
 
-    # Step 2: Fetch content
+    # Known irrelevant domains
+    known_irrelevant_domains = [
+        "cnn.com", "bbc.com", "nytimes.com", "reuters.com", "hbr.org",
+        "indiatoday.in", "forbes.com", "businessinsider.com", "elle.com", "vogue.in"
+    ]
+    if domain in known_irrelevant_domains:
+        return {
+            "title": "Untitled", "author": "", "date": "", "url": url,
+            "relevant": False,
+            "reason": f"Domain '{domain}' is a known media/commercial site.",
+            "summary": ""
+        }
+
     html = fetch_url_content(url)
     if not html:
         return {
-            "title": "Untitled",
-            "author": "",
-            "date": "",
-            "url": url,
+            "title": "Untitled", "author": "", "date": "", "url": url,
             "relevant": False,
             "reason": "Failed to fetch or empty content.",
             "summary": ""
         }
 
     cleaned = clean_html_content(html)
-    trimmed = cleaned[:1500]
-
-    # Step 3: Title extraction
     soup = BeautifulSoup(html, "html.parser")
     page_title = soup.title.string.strip() if soup.title and soup.title.string else "Untitled"
 
-    # Step 4: Prefilter for obvious promotions
-    promo_keywords = [
-        "enroll now", "join the course", "placement support", "free trial",
-        "live classes", "cohort", "certification", "bootcamp", "coaching", "sign up"
-    ]
-    if any(kw in cleaned.lower() for kw in promo_keywords):
+    # Reject too short or weird content
+    if not cleaned or len(cleaned.split()) < 50:
         return {
-            "title": page_title,
-            "author": "",
-            "date": "",
-            "url": url,
+            "title": page_title, "author": "", "date": "", "url": url,
             "relevant": False,
-            "reason": "Page appears to promote a course or service.",
+            "reason": "Content too short or machine-generated.",
             "summary": ""
         }
 
-    # Step 5: AI prompt
-    prompt = f"""You're an AI classifier. Determine whether the given web page is a personal blog post or not.
+    if cleaned.lstrip().startswith(("{", "<", "---")):
+        return {
+            "title": page_title, "author": "", "date": "", "url": url,
+            "relevant": False,
+            "reason": "Appears to be structured data (JSON/YAML/XML).",
+            "summary": ""
+        }
 
-Respond ONLY with this exact JSON format:
+    trimmed = cleaned[:1200]
+
+    # Soft keyword filters
+    if domain not in blog_whitelist:
+        promo_keywords = ["enroll", "bootcamp", "coaching", "certification", "sign up", "free trial"]
+        landing_keywords = ["request demo", "platform features", "contact sales", "enterprise solution"]
+        media_keywords = ["editorial team", "subscribe newsletter", "celebrity", "gossip", "trending now"]
+
+        lower = cleaned.lower()
+        if any(kw in lower for kw in promo_keywords):
+            return {
+                "title": page_title, "author": "", "date": "", "url": url,
+                "relevant": False,
+                "reason": "Appears to promote a course or product.",
+                "summary": ""
+            }
+        if any(kw in lower for kw in landing_keywords):
+            return {
+                "title": page_title, "author": "", "date": "", "url": url,
+                "relevant": False,
+                "reason": "Looks like a company landing page.",
+                "summary": ""
+            }
+        if any(kw in lower for kw in media_keywords):
+            return {
+                "title": page_title, "author": "", "date": "", "url": url,
+                "relevant": False,
+                "reason": "Reads like a media/lifestyle portal.",
+                "summary": ""
+            }
+
+    # Final AI classification prompt
+    prompt = f"""You're a blog classifier.
+
+Given a web page's title and first 1200 characters of cleaned content, determine whether it's a **personal blog post** — not marketing, not company, not media.
+
+Respond in **this exact JSON format**:
 {{
   "relevant": true or false,
   "reason": "short reason",
-  "summary": "2-line summary"
+  "summary": "brief 2-line summary"
 }}
 
-Mark "relevant": true ONLY IF ALL of these are true:
-- Content is a reflective, opinion-based blog or article
-- NOT promoting or selling anything (courses, services, products)
-- NOT a landing page or commercial website
-- Written in personal voice (first/second person) and not SEO/funnel content
-- From an individual, not a company or coaching brand
+Mark "relevant": true ONLY if:
+- It's a thoughtful, reflective blog post or article
+- NOT commercial or promotional
+- Written in a personal voice (first-person, subjective)
+- NOT a landing page or company post
+- NOT a news or SEO article
 
 Title: {page_title}
 
@@ -102,18 +143,14 @@ Content:
 """
 
     try:
-        ai_response = ollama.chat(model=model, messages=[{"role": "user", "content": prompt}])
-        raw = ai_response["message"]["content"].strip()
+        response = ollama.chat(model=model, messages=[{"role": "user", "content": prompt}])
+        raw = response["message"]["content"].strip()
 
-        # Strip markdown formatting if present
-        if raw.startswith("```json"):
-            raw = raw[7:]
-        elif raw.startswith("```"):
-            raw = raw[3:]
-        if raw.endswith("```"):
-            raw = raw[:-3]
-
+        if raw.startswith("```json"): raw = raw[7:]
+        elif raw.startswith("```"): raw = raw[3:]
+        if raw.endswith("```"): raw = raw[:-3]
         raw = re.sub(r'[\x00-\x1F]+', ' ', raw)
+
         parsed = json.loads(raw)
 
         return {
