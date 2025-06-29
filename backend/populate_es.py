@@ -7,14 +7,13 @@ client = MongoClient(MONGO_URI)
 db = client["personal_blogs"]
 collection = db["entries"]
 
-# 🔥 Delete index if it exists
-if es.indices.exists(index=INDEX_NAME):
-    es.indices.delete(index=INDEX_NAME)
-    print(f"🗑️ Deleted old index: {INDEX_NAME}")
-
-# 🔁 Recreate index
-es.indices.create(index=INDEX_NAME)
-print(f"🆕 Created new index: {INDEX_NAME}")
+# 🚫 Do NOT delete index
+# Just ensure the index exists
+if not es.indices.exists(index=INDEX_NAME):
+    es.indices.create(index=INDEX_NAME)
+    print(f"🆕 Created new index: {INDEX_NAME}")
+else:
+    print(f"📁 Index already exists: {INDEX_NAME}")
 
 total = collection.count_documents({})
 print(f"📦 MongoDB total documents: {total}")
@@ -26,6 +25,11 @@ for entry in collection.find():
 
     if not url:
         print("⚠️ Skipping: missing URL")
+        continue
+
+    # Check if document with this URL already exists in ES
+    if es.exists(index=INDEX_NAME, id=url):
+        print(f"⏭️ Skipping already indexed: {url}")
         continue
 
     # Fill defaults for missing fields
@@ -42,4 +46,4 @@ for entry in collection.find():
     except Exception as e:
         print(f"❌ Failed to index {url}: {e}")
 
-print(f"\n✅ Total indexed: {count}")
+print(f"\n✅ Total newly indexed: {count}")
