@@ -11995,5 +11995,1328 @@
     "relevant": true,
     "reason": "The content is a personal blog post about the Apollo 8 mission, focusing on the experience and perspectives of the astronauts. It’s written in a first-person voice and is not promotional, a news article, or a company post.",
     "summary": "This blog post recounts the Apollo 8 mission, focusing on the astronauts' experience and the challenges they faced during the flight."
+  },
+  {
+    "title": "Buzz Aldrin – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Buzz_Aldrin",
+    "relevant": true,
+    "reason": "The content discusses the life and work of Buzz Aldrin, focusing on his contributions to Wikipedia, personal anecdotes, and related topics. It is clearly a reflective and biographical piece.",
+    "summary": "This blog post chronicles Buzz Aldrin's life, career, and contributions to Wikipedia, including his time as a pilot, NASA employee, and astronaut. It covers his biography, family, and personal interests."
+  },
+  {
+    "title": "GPS – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/GPS",
+    "relevant": true,
+    "reason": "The content is clearly focused on a personal experience and reflections on the topic of GPS, written in a first-person style. It’s not a commercial or news-related piece.",
+    "summary": "The text details the creation and maintenance of the GPS system, emphasizing the role of the user and the importance of the project."
+  },
+  {
+    "title": "Geostacionární dráha – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Geostacion%C3%A1rn%C3%AD_dr%C3%A1ha",
+    "relevant": true,
+    "reason": "The text discusses a specific astronomical topic – geostationary orbits – in a personal and informative style, suggesting a thoughtful article rather than a commercial or promotional piece.",
+    "summary": "This blog post explores geostationary orbits, explaining their significance and history, and provides links to related articles and content."
+  },
+  {
+    "title": "Hubbleův vesmírný dalekohled – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Hubble%C5%AFv_vesm%C3%ADrn%C3%BD_dalekohled",
+    "relevant": true,
+    "reason": "The text is a detailed account of a scientific article about the Hubble Space Telescope, focusing on its design, construction, and scientific discoveries. It’s a personal exploration of the topic, written in a thoughtful, informative, and slightly subjective style, fitting the definition of a personal blog post.",
+    "summary": "This article describes the Hubble Space Telescope, covering its design, construction, scientific discoveries, and ongoing maintenance. It provides details about the early design, the challenges of the primary mirror, the service missions, and the current research and discoveries made with the telescope."
+  },
+  {
+    "title": "John Venn – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/John_Venn",
+    "relevant": true,
+    "reason": "The content focuses on a personal experience – John Venn's journey with Wikipedia, discussing his use of the platform, providing insights, and navigating its features. It's written in a personal style, using first-person pronouns and discussing his own experience with the site.",
+    "summary": "This blog post details John Venn's personal experience using Wikipedia, particularly focusing on his navigation of the site and its various features. It’s a reflective account of his interaction with the platform."
+  },
+  {
+    "title": "Juno (sonda) – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Juno_(sonda)",
+    "relevant": true,
+    "reason": "The content discusses the Wikipedia project, specifically the Juno (sonda) sond and its navigation features. It's a reflective piece about scientific research and the process of creating and managing information.",
+    "summary": "The text details the creation of the Juno (sonda) survey, including its purpose, methodology, and navigation system, highlighting the collaborative effort behind Wikipedia."
+  },
+  {
+    "title": "Klínové písmo – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Kl%C3%ADnov%C3%A9_p%C3%ADsmo",
+    "relevant": true,
+    "reason": "The title clearly indicates a blog post about a specific writing system – Klínové písmo – Wikipedie. It focuses on the content and provides a brief summary of the blog.",
+    "summary": "This blog post details the creation and use of Klínové písmo, a unique writing system developed by Wikimedia. It discusses the history, features, and connection to the Wikipedia project."
+  },
+  {
+    "title": "Mezopotámie – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Mezopot%C3%A1mie",
+    "relevant": true,
+    "reason": "The text is a personal blog post discussing the topic of Mezopotamie, focusing on its geographical and historical aspects and written in a personal, reflective style. It doesn't contain any marketing, company, or news content.",
+    "summary": "This text is a blog post about Mezopotamie, providing an introduction to its geography, history, and related aspects. It’s written in a personal voice, exploring the topic with a focus on its significance."
+  },
+  {
+    "title": "Moorův zákon – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Moor%C5%AFv_z%C3%A1kon",
+    "relevant": true,
+    "reason": "The text discusses the Moor's Law, a historical legal principle, and its connection to Wikipedia. It’s clearly a factual article about a specific topic, avoiding promotional or commercial content.",
+    "summary": "This article explores the Moor's Law, a fundamental principle in law and governance that established specific boundaries, and its significant role in the development and functioning of Wikipedia. It details the historical context, key concepts, and its importance within the project."
+  },
+  {
+    "title": "Protuberance – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Protuberance",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on a specific topic – ‘Protuberance’ – and uses a personal voice (first-person) and expresses a subjective perspective. It's not a commercial, company, news, or SEO article.",
+    "summary": "The blog post discusses the concept of 'Protuberance' and its significance within the context of Wikipedie, exploring its role and features. It’s a focused piece with a personal tone."
+  },
+  {
+    "title": "Titan (měsíc) – Wikipedie",
+    "author": "",
+    "date": "",
+    "url": "https://cs.wikipedia.org/wiki/Titan_(m%C4%9Bs%C3%ADc)",
+    "relevant": true,
+    "reason": "The content is a detailed description of a scientific article about the moon, specifically the Cassini-Huygens mission. It discusses the history, observations, and findings related to the moon's formation and atmosphere.",
+    "summary": "This blog post details the Cassini-Huygens mission, which provided detailed observations and data about the moon's history, atmosphere, and surface features. It covers the mission's history, key observations, and the ongoing analysis of the moon's characteristics."
+  },
+  {
+    "title": "Cuneiform Writing Techniques",
+    "author": "",
+    "date": "",
+    "url": "https://cuneiform.neocities.org/CWT/CWT.html",
+    "relevant": true,
+    "reason": "The content focuses on the historical development of cuneiform writing, detailing its origins, evolution, and the basic principles of the script. It’s a descriptive and analytical piece, fitting the definition of a personal blog post.",
+    "summary": "This text explores the origins and basic principles of cuneiform writing, tracing its evolution from early scratching methods to the creation of the wedge-shaped script. It discusses the fundamental concept of the wedge as the core element of cuneiform."
+  },
+  {
+    "title": "Çын инкекĕшĕн савăнни — Википеди",
+    "author": "",
+    "date": "",
+    "url": "https://cv.wikipedia.org/wiki/%C3%87%D1%8B%D0%BD_%D0%B8%D0%BD%D0%BA%D0%B5%D0%BA%C4%95%D1%88%C4%95%D0%BD_%D1%81%D0%B0%D0%B2%C4%83%D0%BD%D0%BD%D0%B8",
+    "relevant": true,
+    "reason": "The page is dedicated to a Turkish blog post about a Turkish word (çын инкекĕшĕн савăнни). It focuses on the concept of a 'word' and its creation, using a navigational element.  It's a personal, reflective piece with a subjective tone.",
+    "summary": "This blog post discusses a specific Turkish word, exploring its creation and use. It features navigation elements like a 'page index' and navigation's sections, reflecting on the meaning and context of the word."
+  },
+  {
+    "title": "Месопотами — Википеди",
+    "author": "",
+    "date": "",
+    "url": "https://cv.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D0%BE%D0%BF%D0%BE%D1%82%D0%B0%D0%BC%D0%B8",
+    "relevant": true,
+    "reason": "The text discusses the history and civilization of Mesopotamia, which is a significant topic for a blog post. It’s a detailed account of its origins, early development, and lasting impact.",
+    "summary": "This text provides a detailed overview of Mesopotamia, its history, and its significance as a cradle of civilization."
+  },
+  {
+    "title": "Савăл çырулăхĕ — Википеди",
+    "author": "",
+    "date": "",
+    "url": "https://cv.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B2%C4%83%D0%BB_%C3%A7%D1%8B%D1%80%D1%83%D0%BB%C4%83%D1%85%C4%95",
+    "relevant": true,
+    "reason": "The text discusses a travel blog post about the city of Saval, focusing on its history, information, and a personal narrative. It’s a travel-oriented piece with a subjective tone and doesn’t promote a commercial product or service.",
+    "summary": "This is a travel blog post about the city of Saval, focusing on its history, travel information, and a personal narrative. It's a focused piece about a specific location."
+  },
+  {
+    "title": "CX Trends 2025 | Surge ahead with human-centric AI",
+    "author": "",
+    "date": "",
+    "url": "https://cxtrends.zendesk.com/apac?utm_medium=webpromo&utm_source=footer&utm_campaign=Other_Channel_Organic_other_APAC_2024_CXT-2025_webpromo_footer",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "Apollo 8 - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Apollo_8",
+    "relevant": true,
+    "reason": "The text is a personal blog post detailing the Apollo 8 mission, written in a personal voice and focusing on the individual experience of the event.",
+    "summary": "This blog post recounts the historic Apollo 8 mission, focusing on the emotional journey of the astronauts and the significance of the landing."
+  },
+  {
+    "title": "Buzz Aldrin - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Buzz_Aldrin",
+    "relevant": true,
+    "reason": "The content is a personal blog post discussing Buzz Aldrin's contributions to Wikipedia, written in a personal voice and focused on a personal wiki.",
+    "summary": "This blog post provides a personal overview of Buzz Aldrin's work on Wikipedia, highlighting his contributions and personal reflections on the topic."
+  },
+  {
+    "title": "Juno (chwiliedydd) - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Juno_(chwiliedydd)",
+    "relevant": true,
+    "reason": "The text is a personal blog post, written in the first person, discussing a personal project – the creation of a Wikipedia page about Juno. It’s clearly focused on a subjective, reflective, and often informal writing style, fitting the definition of a personal blog.",
+    "summary": "This text is a personal blog post detailing the creation of a Wikipedia page about the fictional character Juno. It includes personal anecdotes, reflections on the project, and a detailed description of the page’s content, focusing on the character’s perspective."
+  },
+  {
+    "title": "Mesopotamia - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Mesopotamia",
+    "relevant": true,
+    "reason": "The text discusses Mesopotamia, a topic often approached with a personal and reflective tone, indicating a potential blog post.",
+    "summary": "This text provides a detailed overview of Mesopotamia, covering its history, geography, and significance. It emphasizes the author's personal perspective and the importance of the topic."
+  },
+  {
+    "title": "Telesgop Gofod Hubble - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Telesgop_Gofod_Hubble",
+    "relevant": true,
+    "reason": "The content clearly focuses on personal reflections and observations about a telescope and Hubble space observatory, presenting a thoughtful and subjective perspective.",
+    "summary": "The article discusses the personal experience of observing the Hubble telescope and reflecting on the significance of the project and the contributions of individuals like Dr. Afan Wyn-Hafan."
+  },
+  {
+    "title": "Titan (lloeren) - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Titan_(lloeren)",
+    "relevant": true,
+    "reason": "The content discusses a personal wiki entry about Titan (lloeren), focusing on a person’s perspective and offering a personal, reflective piece rather than a commercial or promotional material.",
+    "summary": "This page is a personal wiki entry detailing the creation and focus of the Titan (lloeren) project, emphasizing the individual's motivations and contributions to the project."
+  },
+  {
+    "title": "Ysgrifen gynffurf - Wicipedia",
+    "author": "",
+    "date": "",
+    "url": "https://cy.wikipedia.org/wiki/Ysgrifen_gynffurf",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post, focusing on a specific topic (Ysgrifen gynffurf) and written in a personal voice.",
+    "summary": "This is a personal blog post detailing the creation of a person's own encyclopedia of information, with a particular focus on the topic of 'Ysgrifen gynffurf' (a fictional subject)."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/107714566",
+    "relevant": true,
+    "reason": "The content focuses on a catalog of the Deutsche Nationalbibliothek (German National Library), discussing the role of a cataloger, the person Aldrin, and related information about the astronaut Neil Armstrong. It lacks any promotional or commercial elements, and appears to be a personal account or informational piece.",
+    "summary": "This text describes the content of the DNB catalog, highlighting the role of a cataloger and providing details about a specific individual, Aldrin, a member of the Armstrong family and an astronaut. It is a straightforward account of library information."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/1143124758",
+    "relevant": true,
+    "reason": "The content is a personal diary entry, detailing John Venn's life and work. It’s written in the first person, focusing on his personal experiences and reflections, and avoids any commercial or promotional context.",
+    "summary": "This text presents a biographical overview of John Venn, highlighting his background, profession (mathematician, theologian), and personal life, primarily focusing on his individual experiences and contributions."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4038788-4",
+    "relevant": true,
+    "reason": "The text is a personal blog post discussing the Deutsche Nationalbibliothek (German National Library) catalog, focusing on a specific topic – Sumerian hymns about the god Ninurta. It’s written in a personal voice and lacks promotional content.",
+    "summary": "The text is a blog post detailing a catalog of the Deutsche Nationalbibliothek, particularly its focus on Sumerian hymns. It highlights the importance of the library and its catalog."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4163552-8",
+    "relevant": true,
+    "reason": "The content is a discussion about the DNB catalog, focusing on specific texts and their categorization, indicating a scholarly or informational blog post.",
+    "summary": "The text is a detailed description of a DNB catalog, highlighting various aspects like search functionality, data, and the collection of historical texts. It’s a scholarly piece examining the catalog's content and structure."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4216824-7",
+    "relevant": true,
+    "reason": "The text is clearly focused on a catalog of the Deutsche Nationalbibliothek (German National Library), discussing its functions, search features, and related concepts. It doesn't promote a product, company, or news story.",
+    "summary": "This article details the DNB's catalog, explaining its purpose, features, and highlighting the use of GPS for location information."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4260288-9",
+    "relevant": true,
+    "reason": "The content is clearly about the DNB (Deutsche Nationalbibliothek) catalog, a database of books and information about the German National Library. It discusses the Hubble space telescope and its relationship to the library.",
+    "summary": "This article discusses the DNB catalog, a database of books and information about the German National Library. It highlights the Hubble space telescope and its historical context, offering a detailed look at the library's catalog and its components."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4369644-2",
+    "relevant": true,
+    "reason": "The content is a detailed description of a DNB catalog, focusing on a specific concept – the search for 'Schadensfreude' (harmful joy/badness). It’s a technical and analytical piece of information rather than a promotional or personal narrative.",
+    "summary": "This text describes the DNB catalog, a database focused on historical and contemporary German national library records, particularly related to the theme of 'Schadensfreude'. It highlights the catalog's function and the potential of this concept, emphasizing its importance in understanding historical events and cultural influences."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4581722-4",
+    "relevant": true,
+    "reason": "The text is clearly about the Deutsche Nationalbibliothek (German National Library) and its catalog, specifically focusing on the moon Titan. It’s a scholarly and informational piece, not promotional or geared towards selling anything.",
+    "summary": "This text is a description and introduction to the DNB catalog, a resource detailing the library's collection of books, music, and archives. It highlights the moon Titan's interaction with the Saturnian magnetosphere, and provides context regarding the catalog's purpose and structure."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/4776869-1",
+    "relevant": true,
+    "reason": "The content is a catalog entry related to the Deutsche Nationalbibliothek (DNB) – the German National Library – and specifically focuses on the Apollo program, containing information about the Apollo 8 mission. It’s a technical and historical document.",
+    "summary": "This text details the Apollo 8 mission, highlighting its significance within the DNB's catalog and related information about the mission's history and catalog entries."
+  },
+  {
+    "title": "DNB, Katalog der Deutschen Nationalbibliothek",
+    "author": "",
+    "date": "",
+    "url": "https://d-nb.info/gnd/7595667-6",
+    "relevant": true,
+    "reason": "The content focuses on a specific legal and technical document related to the Moore's Law, highlighting its significance and historical context within the field of computer science and technology.",
+    "summary": "This text is a detailed description of the Moore's Law, its origin, and its impact on electronic technology, particularly in the semiconductor industry. It presents a technical and philosophical discussion of this fundamental concept."
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://d267cvn3rvuq91.cloudfront.net/i/images/electrodex299.jpg?sw=280",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/imagesjuno20120830juno20120830-640.jpg",
+    "relevant": false,
+    "reason": "Non-HTML or media/download file.",
+    "summary": ""
+  },
+  {
+    "title": "Apollo 8 - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Apollo_8",
+    "relevant": true,
+    "reason": "The content is an article about the Apollo 8 mission, focusing on the events and observations of the crew, presented in a personal, journalistic style. It’s not a commercial or promotional piece, and it's written in first-person perspective.",
+    "summary": "The article chronicles the historic Apollo 8 mission, detailing the crew's journey, observations of the lunar surface, and the significance of the mission in space exploration."
+  },
+  {
+    "title": "Buzz Aldrin - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Buzz_Aldrin",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on a specific individual, Buzz Aldrin, and his work.",
+    "summary": "This text is a Wikipedia entry about Buzz Aldrin, focusing on his life, contributions, and associated projects."
+  },
+  {
+    "title": "GPS - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/GPS",
+    "relevant": true,
+    "reason": "The title clearly indicates a discussion about GPS, a topic often explored in personal reflection and articles.",
+    "summary": "This article focuses on the concept of GPS, exploring its mechanics, specialized uses, and significance."
+  },
+  {
+    "title": "Geostationære bane - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Geostation%C3%A6re_bane",
+    "relevant": true,
+    "reason": "The title clearly indicates a discussion about geostationary orbits, a topic often explored in personal blogs and articles focusing on science, technology, and astronomy.",
+    "summary": "This page details the concept of geostationary orbits, a phenomenon observed in space and discussed in detail within the context of scientific exploration and personal reflection."
+  },
+  {
+    "title": "Hubble-rumteleskopet - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Hubble-rumteleskopet",
+    "relevant": true,
+    "reason": "The content discusses a space telescope, focusing on its construction and observations, which aligns with the definition of a personal blog post. It’s a detailed, informative piece of science.",
+    "summary": "This article is a detailed overview of the Hubble Space Telescope, its construction, and its discoveries. It is written in a personal style, presenting technical information and observations."
+  },
+  {
+    "title": "John Venn - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/John_Venn",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal reflection on Wikipedia, focusing on the individual John Venn's involvement and thoughts, avoiding any commercial or promotional context.",
+    "summary": "The text is a personal blog post discussing the Wikipedia project, offering insights into the writer's perspective and experiences."
+  },
+  {
+    "title": "Juno (rumsonde) - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Juno_(rumsonde)",
+    "relevant": true,
+    "reason": "The content is an introductory overview of Wikipedia, written in the first person, and avoids any promotional or commercial language.",
+    "summary": "This is a Wikipedia article about Juno (rumsonde), a figure from the fictional world of the 'Zweefdrom' series. The article provides a brief overview of the character and its significance."
+  },
+  {
+    "title": "Kileskrift - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Kileskrift",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on Wikipedia, discussing the subject in a reflective and informal manner.",
+    "summary": "This blog post discusses the Wikipedia project, offering insights and opinions on its creation and role in the world of knowledge."
+  },
+  {
+    "title": "Mesopotamien - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Mesopotamien",
+    "relevant": true,
+    "reason": "The content discusses the history of Mesopotamia, a topic generally considered to be related to personal narratives and historical accounts, rather than marketing, company, or news.",
+    "summary": "This article provides an overview of Mesopotamia, tracing its history from prehistoric times to the rise of the Akkadian Empire and the formation of the Babylonian and Assyrian empires. It covers the periods of early history, the rise of the early empires, the development of the later empires, and the broader impact of Mesopotamia on the modern world."
+  },
+  {
+    "title": "Moores lov - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Moores_lov",
+    "relevant": true,
+    "reason": "The text discusses the concept of Moore's Law in a personal, reflective manner, written in the first person, and is not related to marketing, company, news or SEO content.",
+    "summary": "The text provides an explanation of Moore's Law, a fundamental principle in computer science, and its historical context, offering a personal perspective on the topic."
+  },
+  {
+    "title": "Protuberans - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Protuberans",
+    "relevant": true,
+    "reason": "The content is a personal blog post, detailing the plant 'Protuberans' and its characteristics, written in a conversational and reflective tone. It’s not promotional, aimed at a general audience, or related to news or SEO.",
+    "summary": "This article discusses the plant 'Protuberans,' providing information about its features, origins, and significance."
+  },
+  {
+    "title": "Rumsonder - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Rumsonder",
+    "relevant": true,
+    "reason": "The content discusses a wiki about Wikipedia, a non-marketing, personal blog post.",
+    "summary": "This is a Wikipedia article about the concept of Wikipedia, presented as a personal reflection."
+  },
+  {
+    "title": "Titan (måne) - Wikipedia, den frie encyklopædi",
+    "author": "",
+    "date": "",
+    "url": "https://da.wikipedia.org/wiki/Titan_(m%C3%A5ne)",
+    "relevant": true,
+    "reason": "The text is about the moon Titan, a fascinating satellite of Saturn, and discusses its physical characteristics, suggesting a personal, reflective, and scientific blog post.",
+    "summary": "This article delves into the unique features of Titan, a moon of Saturn, exploring its atmosphere, geological structure, and surface conditions."
+  },
+  {
+    "title": "DagsHub: Everything you need to manage multimodal AI",
+    "author": "",
+    "date": "",
+    "url": "https://dagshub.com/",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "Daring Fireball",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "Daring Fireball: Apple’s Plans for the DMA in the European Union",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/apples_plans_for_the_dma",
+    "relevant": false,
+    "reason": "Looks like a company landing page.",
+    "summary": ""
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal perspective and a discussion of a novel product – the Apple Vision Pro – focusing on its design and potential, rather than a business promotion or marketing campaign.",
+    "summary": "The author is discussing their testing of the Apple Vision Pro, highlighting three distinct products: a VR/AR headset, a spatial computing productivity platform, and a personal entertainment device. The title reflects a personal, reflective account rather than a commercial or promotional context."
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro#fn1-2024-01-30",
+    "relevant": true,
+    "reason": "The text explicitly describes a personal experience and reflection on a new product launch, aligning with the definition of a personal blog post.",
+    "summary": "The author, John Gruber, is discussing his testing of Apple’s Vision Pro headset, presenting it as a personal exploration of its features and potential impact."
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro#fn2-2024-01-30",
+    "relevant": true,
+    "reason": "The content clearly discusses a personal product – the Apple Vision Pro – and the author's observations and experiences with the device, exhibiting a personal and reflective tone.",
+    "summary": "The author provides a detailed account of testing the Apple Vision Pro, highlighting its three distinct components: a VR/AR headset, a spatial computing productivity platform, and a personal entertainment device. The text is largely focused on the author's personal perspective and reaction to the product."
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro#fn3-2024-01-30",
+    "relevant": true,
+    "reason": "The content centers on a personal observation and reflection on the Apple Vision Pro, presented as a journalist's first-person account of testing the device. It’s clearly a subjective piece, focused on personal experience and analysis rather than marketing or promotion.",
+    "summary": "The author is testing the Apple Vision Pro and providing a detailed account of his experiences, highlighting the three distinct products he's evaluating."
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro#fnr1-2024-01-30",
+    "relevant": true,
+    "reason": "The content discusses a highly personal, subjective experience of testing a new product – the Apple Vision Pro – with a focus on its design and the author's thoughts and observations. It’s clearly an introspective piece rather than a promotional or commercial overview.",
+    "summary": "The author is detailing their personal testing of the Apple Vision Pro, highlighting its three distinct components (VR/AR headset, spatial computing platform, and personal entertainment device) and providing a humorous anecdote about the packaging size."
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro#fnr2-2024-01-30",
+    "relevant": true,
+    "reason": "The content explicitly discusses a personal product – the Apple Vision Pro – and a subjective, reflective account of testing it. It’s a personal blog post focused on an individual’s experience with the device.",
+    "summary": "The blogger describes a series of testing experiences with the Apple Vision Pro, focusing on its various functionalities and a personal, somewhat nostalgic, perspective on the product's design and its potential impact."
+  },
+  {
+    "title": "Daring Fireball: The Vision Pro",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/01/the_vision_pro#fnr3-2024-01-30",
+    "relevant": true,
+    "reason": "The content focuses on a personal experience and reflection on a revolutionary device, exhibiting a subjective and personal perspective, aligning with the definition of a personal blog post.",
+    "summary": "The author details testing the Apple Vision Pro, exploring three new products – a VR/AR headset, a spatial computing productivity platform, and a personal entertainment device – with a focus on a personal, reflective tone, aiming to highlight the device's innovative potential."
+  },
+  {
+    "title": "Daring Fireball: Simple Tricks and Nonsense",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/2024/02/simple_tricks_and_nonsense",
+    "relevant": true,
+    "reason": "The text discusses a sensory experience – a tactile sensation – triggered by the butterfly's landing on a finger, suggesting a personal, subjective reflection rather than a promotional or informational piece.",
+    "summary": "The text details a demonstration of a butterfly-induced tactile sensation experienced by the author, highlighting a unique and somewhat surreal observation about the iPhone's finger-tracking and the potential for sensory illusion."
+  },
+  {
+    "title": "Daring Fireball: Archive",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/archive/",
+    "relevant": true,
+    "reason": "The content focuses on personal reflections, observations, and insights about Apple's policies, specifically concerning the DMA 28, and includes personal anecdotes and a subjective tone. It avoids commercial promotion, company announcements, and news-related content.",
+    "summary": "The piece discusses Apple's new app policy changes in Europe, offers a thoughtful analysis of the situation, and includes personal thoughts and observations on the topic."
+  },
+  {
+    "title": "Daring Fireball: Colophon",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/colophon/",
+    "relevant": true,
+    "reason": "The content is a personal reflection on the author’s work and process, focusing on creative writing and the technical aspects of the project. It’s not promotional, commercial, or aimed at a broad audience.",
+    "summary": "A personal blog post detailing the creation of the Daring Fireball website and its development, with a focus on the author's creative process and technical details."
+  },
+  {
+    "title": "Daring Fireball: Contact Information",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/contact/",
+    "relevant": true,
+    "reason": "The content is clearly an individual's personal blog post, discussing a contact method and sharing thoughts on a specific project. It’s focused on a personal relationship and doesn’t have commercial intent.",
+    "summary": "This is a personal blog post from John Gruber detailing his contact information and a bit about his writing process, including a discussion on his communication preferences and mentioning Mastodon and Signal."
+  },
+  {
+    "title": "Daring Fireball: RSS Feeds",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/feeds/",
+    "relevant": true,
+    "reason": "The content discusses RSS feeds, authentication, and a podcast, aligning with a personal blog post focused on technical topics and a specific individual (John Gruber) rather than marketing or commercial content.",
+    "summary": "This text details the Daring Fireball RSS feed, its features, and the creator, John Gruber, offering a technical overview and a podcast link."
+  },
+  {
+    "title": "Daring Fireball: Weekly Sponsorships",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/feeds/sponsors/",
+    "relevant": true,
+    "reason": "The text clearly discusses sponsorship opportunities for a specific product, 'Daring Fireball,' targeting a niche audience – Mac enthusiasts and designers. It’s a personal account of the sponsorship process, rather than a promotional campaign for a broader product.",
+    "summary": "The article details a weekly sponsorship program for the 'Daring Fireball' podcast, aimed at Mac enthusiasts and designers. It outlines the schedule, availability, and pricing for these sponsorships."
+  },
+  {
+    "title": "Daring Fireball: Battery? What Battery? Oh, That Battery.",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/linked/2024/01/19/vision-pro-battery",
+    "relevant": true,
+    "reason": "The content centers on a specific product – the Apple Vision Pro battery – and explores a minor, unusual detail about its placement within the product's presentation. It’s a focused piece about a particular technology and its presentation, not a broader topic.",
+    "summary": "The article analyzes a peculiar detail about Apple’s Vision Pro battery pack – its absence from photos and videos – highlighting a minor, unusual presentation choice."
+  },
+  {
+    "title": "Daring Fireball: Apple Finally Reveals Vision Pro's Weight",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/linked/2024/01/20/vision-pro-weight",
+    "relevant": true,
+    "reason": "The content focuses on a specific product – the Vision Pro – and details its weight compared to competitors, exhibiting a personal perspective and focusing on the user experience rather than promoting a company or selling a product.",
+    "summary": "The article discusses the weight of the Vision Pro headset, contrasting it with existing headsets like the Meta Quest Pro and Valve Index, and highlighting its lighter design compared to these models. It also provides specifications for the headset's components and storage options."
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/misc/2024/01/eyesight-in-action.jpeg",
+    "relevant": false,
+    "reason": "Non-HTML or media/download file.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/misc/2024/01/homepods-v-vision-pro.jpeg",
+    "relevant": false,
+    "reason": "Non-HTML or media/download file.",
+    "summary": ""
+  },
+  {
+    "title": "Daring Fireball: Display Preferences",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/preferences/",
+    "relevant": true,
+    "reason": "The title directly addresses a personal preference and focuses on a specific aspect of the content – display preferences – suggesting a reflective or personal viewpoint.",
+    "summary": "This post discusses John Gruber's work on Daring Fireball and its related projects, emphasizing display preferences and the importance of user experience."
+  },
+  {
+    "title": "Daring Fireball Projects",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/projects/",
+    "relevant": true,
+    "reason": "The content focuses on a personal project – ‘Daring Fireball Projects’ – detailing the creation and use of Markdown, SmartyPants, and Vesper. It’s a descriptive account of a technical endeavor, which is characteristic of a personal blog post.",
+    "summary": "The article discusses the development of a tool for Markdown formatting and note-taking, highlighting specific plugins like SmartyPants and Vesper."
+  },
+  {
+    "title": "Daring Fireball: The Talk Show",
+    "author": "",
+    "date": "",
+    "url": "https://daringfireball.net/thetalkshow/",
+    "relevant": false,
+    "reason": "Reads like a media/lifestyle portal.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dash.cloudflare.com/?to=/:account/support",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dash.cloudflare.com/login",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dash.cloudflare.com/sign-up",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dash.cloudflare.com/sign-up/workers-and-pages",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dash.harvard.edu/bitstream/handle/1/37375674/Hershkovitz%20Y%20%282023%29%20The%20Adaptation%20Process%20of%20Cuneiform%20in%20the%20Old%20Babylonian%20Period%207.pdf?sequence=1&isAllowed=y",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Écriture cunéiforme",
+    "author": "",
+    "date": "",
+    "url": "https://data.bnf.fr/ark:/12148/cb119552161",
+    "relevant": true,
+    "reason": "The title explicitly indicates an article about data and SPARQL, suggesting a personal reflection and focused on technical information rather than promotional content.",
+    "summary": "This is a blog post focused on data analysis, specifically SPARQL, with a focus on data documentation and understanding."
+  },
+  {
+    "title": "Titan (satellite de Saturne)",
+    "author": "",
+    "date": "",
+    "url": "https://data.bnf.fr/ark:/12148/cb119763802",
+    "relevant": true,
+    "reason": "The title explicitly refers to the Titan satellite and its data, suggesting a focused, technical, and personal exploration of the subject.",
+    "summary": "This is a blog post about the Titan satellite project, detailing data, SPARQL, and semantic data, with a focus on French and English versions."
+  },
+  {
+    "title": "GPS",
+    "author": "",
+    "date": "",
+    "url": "https://data.bnf.fr/ark:/12148/cb12294604n",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on data, SPARQL, and related concepts, written in a personal voice and not related to commercial or promotional content.",
+    "summary": "This article discusses GPS data, SPARQL, semantic data, and web data, potentially offering a tutorial or explanation of these topics in a personal context."
+  },
+  {
+    "title": "John Venn (1834-1923)",
+    "author": "",
+    "date": "",
+    "url": "https://data.bnf.fr/ark:/12148/cb12355074r",
+    "relevant": true,
+    "reason": "The content discusses a historical figure (John Venn) and their work with SPARQL, data documentation, and semantic data. It’s a reflection, a discussion about a specific area of knowledge, and written in a personal, analytical style, avoiding commercial or promotional contexts.",
+    "summary": "This blog post explores the work and contributions of John Venn, focusing on data, SPARQL, and semantic data, presenting information and insights about the subject."
+  },
+  {
+    "title": "Edwin Eugene Aldrin",
+    "author": "",
+    "date": "",
+    "url": "https://data.bnf.fr/ark:/12148/cb12585179q",
+    "relevant": true,
+    "reason": "The title explicitly references personal data, documentation, SPARQL, and data-related concepts, indicating a focused personal blog post.",
+    "summary": "This title suggests a blog post discussing personal data, SPARQL, and related technologies, likely for an individual or a small group."
+  },
+  {
+    "title": "World Bank Open Data | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/",
+    "relevant": true,
+    "reason": "The content focuses on the World Bank's open data initiatives, describing the site's expansion and the data it offers. It’s a reflective piece about data and development, avoiding promotional language or a commercial context.",
+    "summary": "This blog post details the World Bank's ongoing efforts to expand its open data offering, highlighting data, indicators, and the importance of global development."
+  },
+  {
+    "title": "About us | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about",
+    "relevant": true,
+    "reason": "The content clearly discusses statistical data, development goals, and the importance of reliable data for improvement, aligning with the definition of a personal blog post focused on reflection and analysis.",
+    "summary": "The text emphasizes the crucial role of statistical data in development, highlighting the need for high-quality data to achieve a world without poverty and outlines the importance of data for strategic planning."
+  },
+  {
+    "title": "Contact | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/contact",
+    "relevant": true,
+    "reason": "The content discusses statistical data, development indicators, and international comparisons, aligning with the characteristics of a personal blog post focused on exploration and analysis rather than promotional content.",
+    "summary": "This text focuses on statistical data, particularly related to development and international statistics, suggesting a personal blog post or article exploring these topics from a particular perspective."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs",
+    "relevant": true,
+    "reason": "The content is clearly focused on statistical analysis and data collection related to development and international issues, written in a personal voice and avoids any promotional or commercial elements.",
+    "summary": "This text discusses the World Bank's work on data collection and statistical capacity building, particularly focusing on indicators and data exchange."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs#icp",
+    "relevant": true,
+    "reason": "The title explicitly mentions ‘Data programs’, suggesting a focused, analytical, and potentially personal narrative.",
+    "summary": "The text describes the World Bank's work related to statistical development and data collection, highlighting a focus on indicators and data exchange."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs#ihsn",
+    "relevant": true,
+    "reason": "The content focuses on statistical analysis and development, and the language is presented as a report or article detailing methodologies and goals, aligning with a personal blog's content. It’s not overtly promotional or geared towards a specific audience.",
+    "summary": "The text details the World Bank's work with statistical capacity and development goals, primarily centered around data collection and analysis, showcasing a focused, technical, and personal approach."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs#jedh",
+    "relevant": true,
+    "reason": "The content clearly focuses on statistical data, development, and analysis, aligning with the purpose of a personal blog post. It’s about sharing information and insights, rather than promoting a product or service.",
+    "summary": "This blog post discusses data analysis and statistical indicators, potentially exploring development trends and international data."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs#ogd-toolkit",
+    "relevant": true,
+    "reason": "The title clearly indicates a focus on data and development, aligning with a personal blog post about statistical analysis and related topics.",
+    "summary": "This text details the World Bank's work concerning data, statistics, and international development, particularly focusing on indicators and data exchange."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs#qeds",
+    "relevant": true,
+    "reason": "The title explicitly states ‘Data programs’ and ‘Data’ suggesting a focused piece on statistical data and related topics, suitable for a personal blog.",
+    "summary": "This article details the World Bank’s work concerning statistical data, focusing on indicators for global development and international comparisons."
+  },
+  {
+    "title": "Data programs | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/data-programs#statcap",
+    "relevant": true,
+    "reason": "The title clearly focuses on data and its application, suggesting a focused, analytical piece rather than a promotional or commercial endeavor.",
+    "summary": "This blog post discusses the World Bank's work related to data and statistics, emphasizing the importance of data collection, analysis, and exchange for sustainable development goals."
+  },
+  {
+    "title": "Frequently asked questions | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/faq",
+    "relevant": true,
+    "reason": "The content focuses on statistical data, indicators, and resources related to development economics and statistics, aligning with the definition of a personal blog post.",
+    "summary": "This text provides information about the World Development Indicators (WDI) data, including explanations, examples, and resources for accessing it. It’s a focused piece on data analysis rather than promotional material."
+  },
+  {
+    "title": "Get started | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/about/get-started",
+    "relevant": true,
+    "reason": "The title \"Get started | Data\" strongly suggests a personal blog post focused on providing information and resources related to data and statistics, aligning with the definition of a personal blog.",
+    "summary": "This page introduces the World Bank's data portal, offering a user-friendly interface for accessing individual data series and datasets, promoting easy access and utilization of data for global development."
+  },
+  {
+    "title": "Countries | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/country",
+    "relevant": true,
+    "reason": "The title clearly indicates a discussion about countries and data, suggesting a personal perspective and not a marketing or commercial context.",
+    "summary": "This page focuses on data and trends related to countries, with a particular emphasis on development indicators and analysis."
+  },
+  {
+    "title": "Indicators | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.DDAY",
+    "relevant": true,
+    "reason": "The content is clearly focused on poverty statistics, specifically the headcount ratio and its associated data, and is written in a personal voice as the author is discussing data and its implications.",
+    "summary": "This text presents a detailed analysis of the poverty headcount ratio, including data from the World Bank and Luxembourg, focusing on its significance for high-income countries and the overall economic situation."
+  },
+  {
+    "title": "Gini index | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.GINI",
+    "relevant": true,
+    "reason": "The content focuses on statistical indicators related to economic development and poverty, suggesting a thoughtful analysis rather than promotional or commercial content. It’s a detailed report with a clear purpose.",
+    "summary": "This text details the World Bank's data and methodology for measuring poverty and inequality, drawing on household surveys and data from various sources. It emphasizes the importance of statistical capacity and data collection for monitoring global trends."
+  },
+  {
+    "title": "Poverty gap at $4.20 a day (2021 PPP) (%) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.LMIC.GP",
+    "relevant": true,
+    "reason": "The content focuses on poverty statistics, specifically the poverty gap at $4.20 a day, and its context within the World Bank's data portal. It’s a detailed exploration of a specific economic indicator, indicating a personal or analytical blog post rather than a marketing or commercial piece.",
+    "summary": "This blog post details a poverty gap measurement using the PPP, offering insights into the economic situation in a specific country (likely referencing Luxembourg data due to the mention)."
+  },
+  {
+    "title": "Multidimensional poverty headcount ratio (UNDP) (% of population) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.MPUN",
+    "relevant": true,
+    "reason": "The content focuses on a statistical indicator (the Multidimensional Poverty Headcount Ratio) and its data, presenting it as an analysis or report rather than a promotional piece or a news item. It's a detailed examination of a specific statistic.",
+    "summary": "This document analyzes the Multidimensional Poverty Index (MPI) 2023, providing country-level results and methodological notes from the Oxford Poverty and Human Development Initiative (OPHI)."
+  },
+  {
+    "title": "Multidimensional poverty headcount ratio (World Bank) (% of population) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.MPWB",
+    "relevant": true,
+    "reason": "The content focuses on a statistical metric – the multidimensional poverty headcount ratio – and its data source (the World Bank). It’s a discussion of economic indicators, not a promotional or commercial piece.",
+    "summary": "This text discusses the multidimensional poverty headcount ratio, a key indicator from the World Bank, and its data, emphasizing its source and context within economic data."
+  },
+  {
+    "title": "Poverty headcount ratio at national poverty lines (% of population) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.NAHC",
+    "relevant": true,
+    "reason": "The content focuses on a specific statistical metric – the poverty headcount ratio – and its source, explicitly stating it's derived from government data and the World Bank. It’s not promotional, aimed at a general audience, or related to a company's products.",
+    "summary": "This is a detailed analysis of the poverty headcount ratio, providing data and context from the World Bank, highlighting its relevance for monitoring and understanding poverty levels across countries."
+  },
+  {
+    "title": "Poverty headcount ratio at societal poverty line (% of population) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.SOPO",
+    "relevant": true,
+    "reason": "The content focuses on a statistical measure – the poverty headcount ratio – related to societal poverty, which is a common topic in personal blogs and articles.",
+    "summary": "This post discusses the poverty headcount ratio, a key indicator of societal poverty, with a focus on data from the World Bank and other sources, particularly highlighting its application to high-income countries."
+  },
+  {
+    "title": "Poverty headcount ratio at $8.30 a day (2021 PPP) (% of population) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.UMIC",
+    "relevant": true,
+    "reason": "The content is a detailed analysis of poverty statistics, focusing on the poverty headcount ratio and its evolution over time, particularly highlighting the PPP (Purchasing Power Parity) figure. It’s a scholarly and data-driven piece, not promotional or geared towards a specific audience.",
+    "summary": "This article provides a detailed breakdown of the poverty headcount ratio, specifically the PPP, at $8.30 a day in 2021, sourced from various international organizations and data providers, including the World Bank and Luxembourg. It emphasizes the use of primary household survey data."
+  },
+  {
+    "title": "Poverty gap at $8.30 a day (2021 PPP) (%) | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/indicator/SI.POV.UMIC.GP",
+    "relevant": true,
+    "reason": "The content discusses poverty statistics and a specific poverty gap, focusing on a detailed analysis and data presentation. It’s clearly about economic data and reporting, rather than promotional material or commercial content.",
+    "summary": "This article presents data on the poverty gap at $8.30 a day in 2021, sourced from government surveys and data from international sources, highlighting the focus on high-income countries and providing methodology for the data."
+  },
+  {
+    "title": "Products | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/products",
+    "relevant": true,
+    "reason": "The content focuses on statistical data and analysis related to international debt, a topic typically associated with research, analysis, and reporting rather than marketing or promotion.",
+    "summary": "This text presents an annual report detailing external debt statistics and analysis for 121 low- and middle-income countries, highlighting the International Debt Report (IDR)."
+  },
+  {
+    "title": "Books & Reports | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/products/data-books",
+    "relevant": true,
+    "reason": "The content is clearly focused on providing information and analysis related to economic development indicators, particularly focusing on the World Bank’s data and the Atlas of Sustainable Development Goals.",
+    "summary": "This text presents a resource detailing data and indicators related to sustainable development, specifically focusing on countries and indicators within the World Bank's data catalog."
+  },
+  {
+    "title": "Data Portals & Tools | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/products/tools",
+    "relevant": true,
+    "reason": "The content discusses data portals, development indicators, and visualization, all hallmarks of personal blogs focused on analysis and insights. It’s not promotional, aimed at a specific audience, and written in a personal voice.",
+    "summary": "The text focuses on the topic of data portals and their use for visualizing development indicators, particularly through graphs and charts, emphasizing the importance of data dashboards and accessibility."
+  },
+  {
+    "title": "Summary Terms of Use | Data",
+    "author": "",
+    "date": "",
+    "url": "https://data.worldbank.org/summary-terms-of-use",
+    "relevant": true,
+    "reason": "The content is a detailed explanation of data and its usage, focusing on statistical analysis and development goals, making it a typical blog post rather than a commercial or promotional piece.",
+    "summary": "This document outlines the terms of use for a data resource, emphasizing its purpose as a tool for international development and statistical analysis."
+  },
+  {
+    "title": "Data360 About | World Bank Data360",
+    "author": "",
+    "date": "",
+    "url": "https://data360.worldbank.org/en/about",
+    "relevant": true,
+    "reason": "The content clearly focuses on an open data portal and its purpose – to improve access and usability of development data, aligning with the description of a personal blog post.",
+    "summary": "The text describes a project to create a centralized, open data portal for the World Bank, aiming to enhance the accessibility and quality of development data for a global audience."
+  },
+  {
+    "title": "Economies | World Bank Data360",
+    "author": "",
+    "date": "",
+    "url": "https://data360.worldbank.org/en/economies",
+    "relevant": true,
+    "reason": "The content focuses on economic data and reports from the World Bank, aligning with a personal blog post exploring economic trends or analysis.",
+    "summary": "This blog post discusses World Bank data and insights related to economies, presenting findings and encouraging user feedback."
+  },
+  {
+    "title": "Search | World Bank Data360",
+    "author": "",
+    "date": "",
+    "url": "https://data360.worldbank.org/en/search",
+    "relevant": true,
+    "reason": "The content focuses on the World Bank's data and project updates, primarily written in a personal style and avoids promotional or commercial elements.",
+    "summary": "This page discusses updates and feedback related to the World Bank's data and research, showcasing the organization's work and inviting user feedback."
+  },
+  {
+    "title": "Data Catalog",
+    "author": "",
+    "date": "",
+    "url": "https://datacatalog.worldbank.org",
+    "relevant": true,
+    "reason": "The content focuses on data, datasets, and their use in a technical and informational context, aligning with a personal blog post. It doesn't promote a product or service.",
+    "summary": "This blog post discusses data cataloging, datasets, and their role in the World Bank's development work, particularly focusing on the Ukraine crisis and World Development Report."
+  },
+  {
+    "title": "Data Access And Licensing | Data Catalog",
+    "author": "",
+    "date": "",
+    "url": "https://datacatalog.worldbank.org/public-licenses#cc-by",
+    "relevant": true,
+    "reason": "The content discusses data access, licensing, and open data, aligning with a personal blog post focused on information and analysis rather than marketing or promotion.",
+    "summary": "The text details the World Bank's data availability, emphasizing the Creative Commons Attribution 4.0 license and user obligations related to data usage, promoting a personal and informative approach."
+  },
+  {
+    "title": "Developer Information: Overview – World Bank Data Help Desk",
+    "author": "",
+    "date": "",
+    "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889386",
+    "relevant": true,
+    "reason": "The title clearly indicates a blog post focused on World Bank data and its impact, aligning with the definition of a personal blog focused on a specific topic and offering insights into a particular area.",
+    "summary": "The text discusses the World Bank's mission and operations, providing detailed information about the organization's history, structure, and goals, making it a personal blog post about a significant global initiative."
+  },
+  {
+    "title": "World Bank Country and Lending Groups – World Bank Data Help Desk",
+    "author": "",
+    "date": "",
+    "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519",
+    "relevant": true,
+    "reason": "The title clearly indicates a focus on global development and data analysis, aligning with a personal blog post type.",
+    "summary": "The content centers on the World Bank's work, providing data and insights related to poverty and development, suggesting a personal perspective and focus on research and analysis rather than promotion or commercial interests."
+  },
+  {
+    "title": "Online Dating - Telegraph Dating",
+    "author": "",
+    "date": "",
+    "url": "https://dating.telegraph.co.uk/s/a/20500?utm_source=hamburger&utm_medium=TMGmain",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://datos.bne.es/resource/XX1476069",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://datos.bne.es/resource/XX527007",
+    "relevant": false,
+    "reason": "Failed to fetch or empty content.",
+    "summary": ""
+  },
+  {
+    "title": "CONTRARY BRIN: Calling all flash mobs! Defend the planet from noisy fools!",
+    "author": "",
+    "date": "",
+    "url": "https://davidbrin.blogspot.com/2013/06/calling-all-flash-mobs-defend-planet.html",
+    "relevant": true,
+    "reason": "The content discusses a fictional event – a flash mob protest – and its potential involvement with extraterrestrial communication, indicating a personal blog post focused on a creative or speculative topic.",
+    "summary": "The blog post details a planned flash mob protest related to a hypothetical message to extraterrestrial life, presenting a narrative and a humorous premise."
+  },
+  {
+    "title": "dblp: John Venn",
+    "author": "",
+    "date": "",
+    "url": "https://dblp.org/pid/28/9315",
+    "relevant": true,
+    "reason": "The content focuses on community support, technical inquiries, and a shared goal of scientific advancement, aligning with the characteristics of a personal blog post.",
+    "summary": "The text details a community-driven effort to receive and address numerous support requests from the dblp team, emphasizing gratitude and outlining a process for handling them effectively."
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dbn.bn.org.pl/descriptor-details/9810600390205606",
+    "relevant": false,
+    "reason": "Content too short or machine-generated.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://dbn.bn.org.pl/descriptor-details/9810634757505606",
+    "relevant": false,
+    "reason": "Content too short or machine-generated.",
+    "summary": ""
+  },
+  {
+    "title": "SVG/ Animation – Wikibooks, Sammlung freier Lehr-, Sach- und Fachbücher",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikibooks.org/wiki/SVG/_Animation",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on animation, specifically from Wikibooks, and uses a personal tone through the 'Letzte Änderungen' section, suggesting a creative or educational piece.",
+    "summary": "This text details the creation and characteristics of simple animations, starting with fundamental concepts and outlining the process of identifying animation goals, durations, and attributes. It showcases a focus on instructional content."
+  },
+  {
+    "title": "SVG/ Animationsbeispiele – Wikibooks, Sammlung freier Lehr-, Sach- und Fachbücher",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikibooks.org/wiki/SVG/_Animationsbeispiele",
+    "relevant": true,
+    "reason": "The content focuses on educational resources, particularly illustrated examples related to the solar system and related concepts. It’s not a commercial, company, or news article.",
+    "summary": "This page presents examples of SVG animations and related content for Wikibooks, a collection of free educational materials. It covers topics like the solar system, sun, planets, and related concepts."
+  },
+  {
+    "title": "SVG/ SVG-Farben – Wikibooks, Sammlung freier Lehr-, Sach- und Fachbücher",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikibooks.org/wiki/SVG/_Druckversion",
+    "relevant": true,
+    "reason": "The content discusses a Wikibooks book about SVG and SVG colors, emphasizing a personal learning experience and practical application. It’s not a promotional piece, a company announcement, or a news article.",
+    "summary": "This blog post provides a tutorial on using the SVG vector graphics library, Wikibooks, focusing on the concept of SVG and its application. It covers the basics of SVG, its features, and how to use it to create visuals."
+  },
+  {
+    "title": "Apollo 8 – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Apollo_8",
+    "relevant": true,
+    "reason": "The text is an article about the Apollo 8 mission, focusing on its history, planning, and events. It's a detailed account of a significant space exploration event.",
+    "summary": "The article details the Apollo 8 mission, which was a crucial step in the history of space exploration, focusing on its mission objectives, the crew, and the events that occurred during the mission's flight to the Moon."
+  },
+  {
+    "title": "Boris Nikolajewitsch Petrow – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Boris_Nikolajewitsch_Petrow",
+    "relevant": true,
+    "reason": "The content is a biographical article about Boris Nikolajewitsch Petrow, written in a personal style and focuses on his life and achievements. It’s not a commercial or promotional piece, a news article, or a landing page.",
+    "summary": "This article is a detailed biography of Boris Nikolajewitsch Petrow, a Russian linguist and historian, focusing on his life, career, and contributions. It’s a thoughtful and personal account."
+  },
+  {
+    "title": "Buzz Aldrin – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Buzz_Aldrin",
+    "relevant": true,
+    "reason": "The content discusses the life of Buzz Aldrin, focusing on his involvement with NASA and the Apollo program. It’s a personal account of his life, detailing his journey and activities, making it a suitable example of a personal blog post.",
+    "summary": "This article details Buzz Aldrin’s life, from his childhood and military service to his work with NASA, including his involvement in the Apollo missions."
+  },
+  {
+    "title": "Flammarions Holzstich – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Flammarions_Holzstich",
+    "relevant": true,
+    "reason": "The title explicitly references a Wikipedia article on Flammarions Holzstich, which is a personal blog post focusing on a specific topic.",
+    "summary": "This article describes the Flammarions Holzstich, a wood carving collection, with a focus on its history, symbolism, and significance. It is presented as a personal account and is not intended for commercial or promotional use."
+  },
+  {
+    "title": "Global Positioning System – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Global_Positioning_System",
+    "relevant": true,
+    "reason": "The content discusses the Global Positioning System (GPS) in detail, focusing on its origins, functionality, and history, which is a typical subject for a personal blog post.",
+    "summary": "This article provides a comprehensive overview of the Global Positioning System, detailing its history, components, and accuracy, presenting technical information about the system."
+  },
+  {
+    "title": "Hubble-Weltraumteleskop – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Hubble-Weltraumteleskop",
+    "relevant": true,
+    "reason": "The content discusses a scientific telescope, its history, status, and future, all of which align with a personal blog post focused on technology, science, and exploration. It’s not promotional, a news article, or a company announcement.",
+    "summary": "This is a Wikipedia article detailing the Hubble-Weltraumteleskop, focusing on its history, current status, and potential future."
+  },
+  {
+    "title": "John Venn – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/John_Venn",
+    "relevant": true,
+    "reason": "The title clearly refers to a personal blog post, focusing on a person's life and work, and uses a conversational tone, suggesting a personal account.",
+    "summary": "The text discusses John Venn, a Wikipedia editor, and his contributions to the website. It highlights his work and the nature of the site itself."
+  },
+  {
+    "title": "Juno (Raumsonde) – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Juno_(Raumsonde)",
+    "relevant": true,
+    "reason": "The content clearly discusses a space mission – a research project focused on the Juno spacecraft and its journey around Jupiter. It’s a highly technical and scientific discussion, lacking any promotional or commercial elements.",
+    "summary": "The article details the mission objectives, technical aspects, and observations of the Juno spacecraft, focusing on its orbital path around Jupiter."
+  },
+  {
+    "title": "Keilschrift – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Keilschrift",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on a historical topic – the Keilschrift. It’s a discussion about a specific language and its evolution.",
+    "summary": "The text discusses the Keilschrift, tracing its origins in Sumer, Akkad, and the Hethitics, highlighting its various transformations and eventual decipherment. It’s a piece written in a personal, informational style."
+  },
+  {
+    "title": "Manfried Dietrich – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Manfried_Dietrich",
+    "relevant": true,
+    "reason": "The content discusses a person named Manfried Dietrich and their involvement with Wikipedia, suggesting a personal reflection or discussion rather than a commercial or corporate purpose.",
+    "summary": "The text details the life and work of Manfried Dietrich, a contributor to Wikipedia, focusing on his role and background."
+  },
+  {
+    "title": "Mesopotamien – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Mesopotamien",
+    "relevant": true,
+    "reason": "The text is about the history of Mesopotamia, a region known for its ancient civilizations, including Sumer, Akkad, Babylon, and Assyria. It's a detailed account of the past and not focused on current events, marketing, or a specific business promotion.",
+    "summary": "This article discusses the history of Mesopotamia, tracing its development from the Sumerian civilization to the rise of the Babylonian and Assyrian empires, ultimately leading to the end of the Neo-Babylonian Empire."
+  },
+  {
+    "title": "Mooresches Gesetz – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Mooresches_Gesetz",
+    "relevant": true,
+    "reason": "The content focuses on a technical topic – the definition of 'Mooresches Gesetz' (German for 'Laws of Electricity') and its implications. It’s presented in a relatively informal style, written in a personal voice (as the user is translating the text), and doesn’t appear to be promotional or aimed at a commercial audience.",
+    "summary": "This text is an introduction to the law of electricity, detailing its definition and historical context."
+  },
+  {
+    "title": "Oswald Loretz – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Oswald_Loretz",
+    "relevant": true,
+    "reason": "The text discusses the life and achievements of Oswald Loretz, a German politician and controversial figure, implying a personal perspective and reflection.",
+    "summary": "The article details the life and accomplishments of Oswald Loretz, focusing on his political career and later, his role in the January 6th Capitol attack."
+  },
+  {
+    "title": "Protuberanz – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Protuberanz",
+    "relevant": true,
+    "reason": "The content discusses a specific phenomenon – the protuberance – in a personal and reflective manner, characteristic of a blog post focused on thought and analysis.",
+    "summary": "The article describes the protuberance, a phenomenon of swelling or expansion, and examines its various forms (ruhende, eruptive, etc.). It also provides information and links related to the topic."
+  },
+  {
+    "title": "Schadenfreude – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Schadenfreude",
+    "relevant": true,
+    "reason": "The content discusses Schadenfreude – the feeling of pleasure from misfortune – a psychological phenomenon not typically associated with marketing, company, or news content.",
+    "summary": "The article explores the concept of Schadenfreude, examining its origins, mechanisms, and presence in literature and art, framing it as a somewhat complex psychological experience."
+  },
+  {
+    "title": "Titan (Mond) – Wikipedia",
+    "author": "",
+    "date": "",
+    "url": "https://de.wikipedia.org/wiki/Titan_(Mond)",
+    "relevant": true,
+    "reason": "The content focuses on a detailed scientific description of a celestial body – the Titan – and its physical properties, exhibiting a personal, technical writing style. It's not promotional, a landing page, or a news article.",
+    "summary": "This article details the physical characteristics of Titan, a moon of Saturn, including its composition, structure, and processes. It's a technical exploration of a unique celestial object."
+  },
+  {
+    "title": "Tumblr",
+    "author": "",
+    "date": "",
+    "url": "https://deckmar.tumblr.com/",
+    "relevant": false,
+    "reason": "Content too short or machine-generated.",
+    "summary": ""
+  },
+  {
+    "title": "Untitled",
+    "author": "",
+    "date": "",
+    "url": "https://deepblue.lib.umich.edu/bitstream/2027.42/62703/1/nature04122.pdf",
+    "relevant": false,
+    "reason": "Non-HTML or media/download file.",
+    "summary": ""
+  },
+  {
+    "title": "Delicious Brains Inc - Awesome products for WordPress developers",
+    "author": "",
+    "date": "",
+    "url": "https://deliciousbrains.com/",
+    "relevant": true,
+    "reason": "The title clearly indicates a personal blog post focused on WordPress development and highlighting the benefits of a specific plugin. It’s not promoting a company or selling products, and it’s written in a conversational tone.",
+    "summary": "This blog post discusses Delicious Brains Inc. and their advanced plugin, Advanced Custom Fields, specifically for WordPress developers. It emphasizes the importance of the plugin and its benefits for WordPress websites."
+  },
+  {
+    "title": "Delicious Brains Inc - Awesome products for WordPress developers",
+    "author": "",
+    "date": "",
+    "url": "https://deliciousbrains.com/?__hstc=51647990.b22ea08fd2506bb09a40e9d43008c7fb.1738868805761.1745448551807.1745520160478.91&__hssc=51647990.3.1745520160478&__hsfp=4110255432&_gl=1*1y2saar*_gcl_au*MTAwNTcwOTM4Ni4xNzM4ODU5ODcw*_ga*NjE1ODQ2MjYyLjE3Mzg4NTk4NzA.*_ga_QQ5FN8NX8W*MTc0NTUyMDE2MC40Ny4xLjE3NDU1MjA5MzguNjAuMC43MjI5MTczNDE.",
+    "relevant": true,
+    "reason": "The title explicitly states it’s about WordPress development and features products geared towards developers, indicating a personal blog post.",
+    "summary": "This post is about WordPress development and offers tools and resources for developers, focusing on a personal perspective."
+  },
+  {
+    "title": "WP Migrate - Push/Pull Your WordPress Database & Files",
+    "author": "",
+    "date": "",
+    "url": "https://deliciousbrains.com/wp-migrate-db-pro/?__hstc=51647990.b22ea08fd2506bb09a40e9d43008c7fb.1738868805761.1744660432769.1744673998827.76&__hssc=51647990.2.1744673998827&__hsfp=3157331439&_gl=1*1i1vze8*_gcl_au*MTAwNTcwOTM4Ni4xNzM4ODU5ODcw*_ga*NjE1ODQ2MjYyLjE3Mzg4NTk4NzA.*_ga_QQ5FN8NX8W*MTc0NDY0NDIxNi4zOS4xLjE3NDQ2NzQxMjIuNDIuMC40NjQ3NTM5NA..",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
+  },
+  {
+    "title": "Upload Your WordPress Media to Amazon S3 with WP Offload Media - Delicious Brains Inc",
+    "author": "",
+    "date": "",
+    "url": "https://deliciousbrains.com/wp-offload-media/?__hstc=51647990.b22ea08fd2506bb09a40e9d43008c7fb.1738868805761.1744660432769.1744673998827.76&__hssc=51647990.2.1744673998827&__hsfp=3157331439&_gl=1*1i1vze8*_gcl_au*MTAwNTcwOTM4Ni4xNzM4ODU5ODcw*_ga*NjE1ODQ2MjYyLjE3Mzg4NTk4NzA.*_ga_QQ5FN8NX8W*MTc0NDY0NDIxNi4zOS4xLjE3NDQ2NzQxMjIuNDIuMC40NjQ3NTM5NA..",
+    "relevant": false,
+    "reason": "Appears to promote a course or product.",
+    "summary": ""
   }
 ]
