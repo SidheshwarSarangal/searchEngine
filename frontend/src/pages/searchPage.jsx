@@ -4,7 +4,7 @@ import SearchTile from "../components/SearchTile";
 import SearchBar from "../components/searchBar";
 import { ArrowLeft } from "lucide-react";
 
-const RESULTS_PER_PAGE = 4;
+const RESULTS_PER_PAGE = 8;
 
 const SearchPage = () => {
   const location = useLocation();

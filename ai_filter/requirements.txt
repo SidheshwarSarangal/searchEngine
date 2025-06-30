@@ -1,2 +1,5 @@
 ollama
 pyyaml
+requests
+beautifulsoup4
+PyYAML
