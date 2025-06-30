@@ -14,7 +14,7 @@ The project consists of 5 parts -
 
 ### Crawler
 The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved. 
-
+***
 To run this -
 - We have to put a link of a website(or several links) in the seed_urls.txt in crawler folder.
 - In the root we have to do this -
@@ -26,6 +26,7 @@ To run this -
      ```scrapy crawl link_collector```
      
 With this we will get a list of links in file collected_links.json in output folder in crawler.
+***
 
 ### AI Filter
 This is used prepare a list of links with their link url, summary, author(if present), date(if present) and to mark the useful and relevant links (personal blogs, articles and useful webpages) as true and also put the reason. We are using AI Model Gemma3:1b which is put in our systems with help of ollama. It uses the list created above which is the output of crawler. The prompt we are using is this -
@@ -45,7 +46,7 @@ Mark "relevant": true ONLY if:
 - NOT a news or SEO article
 ```
 There are certain other parameters as well such as domain checking, size of the web page document and declining media(image/audio/video) links. Also we check only first 1000 charaters as Gemma3:1b as it will make the task complete faster.
-
+***
 To run this -
 - In the root we have to do this in terminal -
   1. Move to the crawler folder
@@ -57,6 +58,19 @@ To run this -
       `python main.py`
      
 We will get the list in the output folder in the file named filtered_data.json.
-
+***
 ### Push to Database
-This code 
+This is done to save only the relevant entries, from the list created as the output of ai filter, to the database which we have chosen as MongoDb.
+***
+To run this -
+- In the root we have to do this in terminal -
+  1. Move to the crawler folder
+
+     `cd Database_mongodb`
+     
+  3. Run command -
+
+      `python push_to_mongodb.py`
+
+  This will save the entires to databse.
+  ***
