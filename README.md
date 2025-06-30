@@ -17,9 +17,9 @@ The crawler is used to crawl over the internet to get a list of web page links. 
 - We have to put a link of a website(or several links) in the seed_urls.txt in crawler folder.
 - In the root we have to do this -
   1. Move to the crawler folder
-      `cd crawler`
+      ```cd crawler```
   3. And run
-     `scrapy crawl link_collector`
+     ```scrapy crawl link_collector```
      
 With this we will get a list of links in file collected_links.json in output folder in crawler.
 
