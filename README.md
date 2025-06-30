@@ -113,5 +113,22 @@ In indexing, we just use the entries from the Mongodb and do index them. Indexng
      python populate_es.py
      ```
 
-**This will save the entries to the database.**
+**The entries will now be indexed.**
 
+The searching part is just retreiving the results from the indexed entries on search. Searching will be done with considering title, author, summary and reason. To run the backend, do-
+
+- **In the root, open the terminal and follow these steps:**
+
+  1. **Move to the `backend` folder:**
+
+     ```bash
+     cd backend
+     ```
+
+  2. **Run the command:**
+
+     ```bash
+     uvicorn main:app --reload
+     ```
+
+**The backend wll run.**
