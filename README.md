@@ -12,8 +12,20 @@ The project consists of 5 parts -
 - Backend
 - Frontend
 
-### Crawler
-The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved. 
+## Dependencies
+You need to install the dependencies in the dofferent folders. For this do -
+**In the backend, ai_filter, crawler, Database_mongodb do -**
+```bash
+     pip install -r requirements.txt
+```
+**In the frontend, do-**
+```bash
+    npm install
+```
+
+---
+## Crawler
+The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved.  
 
 **To run this:**
 
@@ -33,10 +45,11 @@ The crawler is used to crawl over the internet to get a list of web page links. 
 
 **This will generate a list of links in the file `collected_links.json` located in the `output` folder inside `crawler`.**
 
-
-### AI Filter
+---
+## AI Filter
 This is used prepare a list of links with their link url, summary, author(if present), date(if present) and to mark the useful and relevant links (personal blogs, articles and useful webpages) as true and also put the reason. We are using AI Model Gemma3:1b which is put in our systems with help of ollama. It uses the list created above which is the output of crawler. The prompt we are using is this -
-``` You're a blog classifier.
+```
+You're a blog classifier.
 Given a web page's title and first 1200 characters of cleaned content, determine whether it's a **personal blog post** — not marketing, not company, not media.
 Respond in **this exact JSON format**:
 {{
@@ -71,7 +84,8 @@ There are certain other parameters as well such as domain checking, size of the 
 
 **You will get the filtered links in the `output` folder, inside the file `filtered_data.json`.**
 
-### Push to Database
+---
+## Push to Database
 This is done to save only the relevant entries, from the list created as the output of ai filter, to the database which we have chosen as MongoDb.
 **To run this:**
 
@@ -91,7 +105,8 @@ This is done to save only the relevant entries, from the list created as the out
 
 **This will save the entries to the database.**
 
-### Backend
+---
+## Backend
 The backend consists of two parts -
 - Indexing
 - Searching with elastic search
@@ -132,3 +147,31 @@ The searching part is just retreiving the results from the indexed entries on se
      ```
 
 **The backend wll run.**
+
+---
+
+## Frontend
+
+With the forntend you can searh and get the results. It is bullt with React.js and tailwind. In the search result, you see the resulting links page wise.
+
+To run the frontend, do-
+
+- **In the root, open the terminal and follow these steps:**
+
+  1. **Move to the `frontend` folder:**
+
+     ```bash
+     cd frontend
+     ```
+
+  2. **Run the command:**
+
+     ```bash
+     npm run dev
+     ```
+
+**The backend wll run.**
+
+---
+
+This is the complete project.
