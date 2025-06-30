@@ -73,16 +73,45 @@ There are certain other parameters as well such as domain checking, size of the 
 
 ### Push to Database
 This is done to save only the relevant entries, from the list created as the output of ai filter, to the database which we have chosen as MongoDb.
-**
-To run this -
-- In the root we have to do this in terminal -
-  1. Move to the crawler folder
+**To run this:**
 
-     `cd Database_mongodb`
-     
-  3. Run command -
+- **In the root, open the terminal and follow these steps:**
 
-      `python push_to_mongodb.py`
+  1. **Move to the `Database_mongodb` folder:**
 
-  This will save the entires to databse.
-  **
+     ```bash
+     cd Database_mongodb
+     ```
+
+  2. **Run the command:**
+
+     ```bash
+     python push_to_mongodb.py
+     ```
+
+**This will save the entries to the database.**
+
+### Backend
+The backend consists of two parts -
+- Indexing
+- Searching with elastic search
+
+In indexing, we just use the entries from the Mongodb and do index them. Indexng is the process of collecting, analyzing, and storing web page data so that it can be retieved and displayed in the search result quickly. I have used Bonsai search for this.
+**To run this:**
+
+- **In the root, open the terminal and follow these steps:**
+
+  1. **Move to the `backend` folder:**
+
+     ```bash
+     cd backend
+     ```
+
+  2. **Run the command:**
+
+     ```bash
+     python populate_es.py
+     ```
+
+**This will save the entries to the database.**
+
