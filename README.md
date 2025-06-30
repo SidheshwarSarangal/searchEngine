@@ -13,7 +13,9 @@ The project consists of 5 parts -
 - Frontend
 
 ### Crawler
-The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved. To run this -
+The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved. 
+
+To run this -
 - We have to put a link of a website(or several links) in the seed_urls.txt in crawler folder.
 - In the root we have to do this -
   1. Move to the crawler folder -
@@ -43,15 +45,18 @@ Mark "relevant": true ONLY if:
 - NOT a news or SEO article
 ```
 There are certain other parameters as well such as domain checking, size of the web page document and declining media(image/audio/video) links. Also we check only first 1000 charaters as Gemma3:1b as it will make the task complete faster.
+
 To run this -
 - In the root we have to do this in terminal -
   1. Move to the crawler folder
 
      `cd ai_filter`
+     
   3. Run command -
 
       `python main.py`
      
 We will get the list in the output folder in the file named filtered_data.json.
 
-### 
+### Push to Database
+This code 
