@@ -52,19 +52,25 @@ Mark "relevant": true ONLY if:
 - NOT a news or SEO article
 ```
 There are certain other parameters as well such as domain checking, size of the web page document and declining media(image/audio/video) links. Also we check only first 1000 charaters as Gemma3:1b as it will make the task complete faster.
-**
-To run this -
-- In the root we have to do this in terminal -
-  1. Move to the crawler folder
 
-     `cd ai_filter`
-     
-  3. Run command -
+**To run this:**
 
-      `python main.py`
-     
-We will get the list in the output folder in the file named filtered_data.json.
-**
+- **In the root, open terminal and follow these steps:**
+
+  1. **Move to the `ai_filter` folder:**
+
+     ```bash
+     cd ai_filter
+     ```
+
+  2. **Run the command:**
+
+     ```bash
+     python main.py
+     ```
+
+**You will get the filtered links in the `output` folder, inside the file `filtered_data.json`.**
+
 ### Push to Database
 This is done to save only the relevant entries, from the list created as the output of ai filter, to the database which we have chosen as MongoDb.
 **
