@@ -14,18 +14,18 @@ The project consists of 5 parts -
 
 ### Crawler
 The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved. 
-**
-To run this -
-- We have to put a link of a website(or several links) in the seed_urls.txt in crawler folder.
-- In the root we have to do this -
-  1. Move to the crawler folder -
+
+**To run this -**
+**- We have to put a link of a website(or several links) in the seed_urls.txt in crawler folder.**
+**- In the root we have to do this -**
+**  1. Move to the crawler folder -**
      
-      ```cd crawler```
-  3. And run -
+**      ```cd crawler```**
+**  3. And run -**
      
-     ```scrapy crawl link_collector```
+**     ```scrapy crawl link_collector```**
      
-With this we will get a list of links in file collected_links.json in output folder in crawler.
+**With this we will get a list of links in file collected_links.json in output folder in crawler.**
 **
 
 ### AI Filter
