@@ -5,12 +5,15 @@ This project is done under GDSC @IIT Roorkee. The problem statement was to creat
 - Ayan
 ---
 ## Description
+The project uses the crawler to crawl over the internet and collect the links. The AI-filter then marks the relevant links and py=ut their title, summery, etc. Then this is pushed to mongodb. After this, the data pushed to mongodb is then indexed. I am using elastic search for this. The backend will run the backend to search from the indexed data and the frontend will allow the user to intect with the browser.
+
 The project consists of 5 parts -
 - Crawler
 - Ai Filter
 - Push To Database
 - Backend
 - Frontend
+Note- I have provided the descriptions of each part and the working process together as following-
 
 ## Dependencies
 You need to install the dependencies in the dofferent folders. For this do -
