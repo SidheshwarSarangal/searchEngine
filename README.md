@@ -15,18 +15,24 @@ The project consists of 5 parts -
 ### Crawler
 The crawler is used to crawl over the internet to get a list of web page links. It uses Breadth-first-search approach. It goes to the web page of the given link and crawl over that web page document, where it finds new links. Then it goes throgh the webpages of those links and this process continues. Along with moving to the different pages, it saves its links and if any saved link comes again then it is not added to the list and we do not move to that again. With this go through the links till we get no more new links and all such unique links are saved. 
 
-**To run this -**
-**- We have to put a link of a website(or several links) in the seed_urls.txt in crawler folder.**
-**- In the root we have to do this -**
-**  1. Move to the crawler folder -**
-     
-**      ```cd crawler```**
-**  3. And run -**
-     
-**     ```scrapy crawl link_collector```**
-     
-**With this we will get a list of links in file collected_links.json in output folder in crawler.**
-**
+**To run this:**
+
+- **Put the link of a website (or several links) in `seed_urls.txt` inside the `crawler` folder.**
+
+- **Then, in the root directory:**
+
+  1. **Move to the crawler folder:**
+     ```bash
+     cd crawler
+     ```
+
+  2. **Run the crawler:**
+     ```bash
+     scrapy crawl link_collector
+     ```
+
+**This will generate a list of links in the file `collected_links.json` located in the `output` folder inside `crawler`.**
+
 
 ### AI Filter
 This is used prepare a list of links with their link url, summary, author(if present), date(if present) and to mark the useful and relevant links (personal blogs, articles and useful webpages) as true and also put the reason. We are using AI Model Gemma3:1b which is put in our systems with help of ollama. It uses the list created above which is the output of crawler. The prompt we are using is this -
